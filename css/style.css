@@ -474,14 +474,17 @@ body {
 .venue {
 	width: auto;
 	height: auto;
-	background-color: #674ea7;
+	background-color: #880ed4;
 	border-radius: 16px;
 	text-align: center;
 	color: #fff;
 	padding: 8px;
 	margin-right: 8px;
 }
-
+.venue:hover {
+	background-color: gold;
+	color: black;
+}
 .venue a {
 	text-decoration: none;
 	color: #fff;

@@ -26,7 +26,7 @@ $(document).on('click', function(){
 });
 
 // Set the date we're counting down to
-var countDownDate = new Date("Nov 29, 2020 00:00:00").getTime();
+var countDownDate = new Date("Feb 11, 2021 06:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -49,7 +49,7 @@ var x = setInterval(function() {
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("time").innerHTML = "Bless the married couple for happy life!";
+        document.getElementById("time").innerHTML = "Bless the to be married couple for happy life!";
     }
 }, 1000);
 
@@ -85,7 +85,7 @@ var styles2 = [
     , 'font-size: 32px'
 ].join(';');
 
-console.log('\n\n%c SAVE THE DATE: 29th Nov, 2020!', styles);
+console.log('\n\n%c SAVE THE DATE: 11th Feb, 2022!', styles);
 
 console.log('%cYour presence is requested!%c\n\nRegards: Vinit Shahdeo', styles1, styles2);
 
