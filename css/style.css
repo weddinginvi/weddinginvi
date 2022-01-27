@@ -592,8 +592,8 @@ a {
 
 .heart {
   cursor: pointer;
-  height: 50px;
-  width: 50px;
+  height: 200px;
+  width: 200px;
   background-image:url( 'https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png');
   background-position: left;
   background-repeat:no-repeat;
