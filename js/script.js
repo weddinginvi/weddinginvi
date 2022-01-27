@@ -93,3 +93,13 @@ console.log(
     `%cShaadi me zaroor aana!\n\n`,
     'color: yellow; background:tomato; font-size: 24pt; font-weight: bold',
 )
+
+/* when a user clicks, toggle the 'is-animating' class */
+$(".heart").on('click touchstart', function(){
+  $(this).toggleClass('is_animating');
+});
+
+/*when the animation is over, remove the class*/
+$(".heart").on('animationend', function(){
+  $(this).toggleClass('is_animating');
+});
