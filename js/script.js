@@ -49,7 +49,7 @@ var x = setInterval(function() {
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("time").innerHTML = "Bless the to be married couple for happy life!";
+        document.getElementById("time").innerHTML = "Bless the couple with your wishes!";
     }
 }, 1000);
 
